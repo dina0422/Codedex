@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h1 class="center-text">About Me</h1>
+      <div class="about-text">
+        <img id="img-dina" src="https://media.istockphoto.com/id/1142192666/vector/avatar-profile-female-face-silhouette-or-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=zRpQo0scJ5MWHkrESBfhG_gZYwBtHPHJvTQ21F_MBJA=" alt="Dina" />
+        <p>Hi! I'm Dina. I'm a web developer. I love coding and learning new things. I'm excited to share my projects with you!</p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+        <div class="project">
+          <a href="https://github.com/dina0422/Codedex/tree/main/HTML/dyno_restaurant"><img id="img-project" class="img-project-1" src="/CSS/personal-website/img/dyner.png" alt="Project 1" /></a>
+          <div>
+            <h3>Dyner</h3>
+            <p>A basic HTML restaurant website.</p>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://github.com/dina0422/Codedex/tree/3815517847bd39428b9811ab8ec2761135610674/Python/terminal%20game"><img id="img-project" class="img-project-2" src="/CSS/personal-website/img/phish-no-more.png" alt="Project 1" /></a>
+          <div>
+            <h3>PHISH NO MORE!</h3>
+            <p>A web terminal based game on phishing awareness</p>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://github.com/dina0422/Codedex/blob/3815517847bd39428b9811ab8ec2761135610674/Python/GIF%20python/nyan-cat.gif"><img id="img-project" class="img-project-3" src="/CSS/personal-website/img/cat-gif.png" alt="Project 1" /></a>
+          <div>
+            <h3>Cat GIF</h3>
+            <p>Combine two images and convert them into GIF mode</p>
+          </div>
+        </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <button type="submit">Send</button>
+      </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 by Dina</p>
+  </footer>
+</body>
+</html>

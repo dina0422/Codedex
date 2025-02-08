@@ -1,0 +1,142 @@
+* {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.961);
+}
+
+.nav-bar {
+    position: fixed;
+    width: 150%;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%); /* Center the nav-bar vertically */
+    background-color: transparent; /* Make the nav-bar background transparent */
+    transition: color 0.3s, opacity 0.3s; /* Add transition for smooth effect */
+}
+
+.nav-bar li {
+    margin: 5px;
+}
+
+.nav-bar ul {
+    position: fixed;
+    list-style-type: square ;
+    list-style-position: inside;
+    padding-left: 20px;
+    margin: 0;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-bar a:hover {
+    color: greenyellow;
+}
+
+.nav-bar.scrolled {
+    opacity: 0.5; /* Make the nav-bar partially invisible when scrolled */
+}
+
+#about {
+    margin: 15%;
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+#img-dina {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.project {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.img-project-1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#img-project {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#img-project:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+section {
+    margin: 5%;
+}
+
+form{
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 5%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], textarea{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type="submit"] {
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(67, 223, 20);
+    color: black;
+    cursor: pointer;
+}
